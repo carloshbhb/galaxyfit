@@ -28,7 +28,7 @@
 <meta property="og:image" content="https://http2.mlstatic.com/D_NQ_NP_2X_925416-MLB76712396933_082024-F.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://galaxyfit3.vercel.app/">
+<meta property="og:url" content="https://galaxyfit.vercel.app/">
 <meta property="og:site_name" content="Galaxy Fit3 Oficial">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:locale:alternate" content="en_US">
@@ -46,8 +46,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<!-- ✅ SITEMAP LINK (CORRIGIDO) -->
-<link rel="sitemap" type="application/xml" href="https://galaxyfit3.vercel.app/sitemap.xml">
+<!-- ✅ SITITEMAP LINK (CORRIGIGIDIDO) -->
+<link rel="sitemitemap" type="application/xml" href="https://galaxyfit.vercel.app/sitemap.xml">
 
 <!-- ✅ JSON-LD PRODUCT SCHEMA -->
 <script type="application/ld+json">
@@ -231,7 +231,7 @@
     content: '';
     position: fixed;
     inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvgsvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
     pointer-events: none;
     z-index: 999;
     opacity: 0.3;
@@ -347,67 +347,6 @@
   @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
-  }
-
-  header {
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 60px;
-    z-index: 90;
-    background: rgba(8, 12, 20, 0.92);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(66,133,244,0.1);
-  }
-
-  .logo-wrap {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .logo-icon {
-    width: 40px; height: 40px;
-    background: var(--samsung);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #fff;
-    font-size: 1.4rem;
-    letter-spacing: 0.02em;
-  }
-
-  .logo-text {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1.15rem;
-    color: var(--samsung-light);
-    letter-spacing: 0.04em;
-  }
-
-  .header-cta {
-    background: var(--samsung-light);
-    color: #fff;
-    padding: 10px 22px;
-    border-radius: 50px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 0.85rem;
-    text-decoration: none;
-    letter-spacing: 0.04em;
-    transition: all 0.2s;
-    text-transform: uppercase;
-  }
-
-  .header-cta:hover {
-    background: #fff;
-    color: var(--samsung);
-    transform: translateY(-1px);
-    box-shadow: 0 8px 24px rgba(66,133,244,0.3);
   }
 
   .hero {
@@ -1083,7 +1022,7 @@
 </head>
 <body>
 
-<!-- ✅ NAVBAR (ÚNICO CABEÇALHO AGORA) -->
+<!-- ✅ NAVBAR (ÚNICO CABEÇALHO) -->
 <nav class="navbar">
   <a href="/" class="nav-logo">
     <div class="nav-logo-icon">S3</div>
@@ -1091,7 +1030,7 @@
   </a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
-    <li><a href="/blog-vale-pena.html">Review</a></li>
+    <li><a href="/blog-vale-pena.html">Review</></li>
     <li><a href="/blog-vs-mi-band.html">Comparativos</a></li>
     <li><a href="/blog-preco.html">Preço</a></li>
   </ul>
@@ -1104,8 +1043,6 @@
   ⚡ OFERTA RELÂMPAGO: ESTOQUE LIMITADO – PREÇO PROMOCIONAL POR TEMPO LIMITADO!
   <span class="blink"></span>
 </div>
-
-<!-- ✅ HEADER ANTIGO REMOVIDO - AGORA SÓ TEM O NAV ACIMA -->
 
 <main>
 
@@ -1221,12 +1158,12 @@
       <div class="benefit-desc">Tão leve que você esquece que está usando. Conforto total.</div>
     </div>
     <div class="benefit-item">
-      <span class="benefit-icon" aria-hidden="true">📱</div>
+      <span class="benefit-icon" aria-hidden="true">📱</span>
       <div class="benefit-title">Samsung Health</div>
-      div class="benefit-desc">App completo com métricas detalhadas e integração com o ecossistema Samsung.</div>
+      <div class="benefit-desc">App completo com métricas detalhadas e integração com o ecossistema Samsung.</div>
     </div>
     <div class="benefit-item">
-      <span class="benefit-icon" aria-hidden="true">💬</div>
+      <span class="benefit-icon" aria-hidden="true">💬</span>
       <div class="benefit-title">Notificações Inteligentes</div>
       <div class="benefit-desc">Receba chamadas, mensagens e alertas direto no seu pulso.</div>
     </div>
@@ -1318,7 +1255,7 @@
   </div>
 </section>
 
-<!-- ✅ SEÇÃO BLOG -->
+<!-- ✅ BLOG SECTION -->
 <section class="blog-section reveal">
   <h2>📝 Artigos do Blog</h2>
   <div class="blog-grid">
@@ -1357,7 +1294,7 @@
   </p>
   <div style="text-align:center;">
     <a href="https://meli.la/2gyyBt9" class="cta-btn" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l6 6M15 11l6-6M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l6 6M15 11l6-6M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0  1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
       Comprar Agora — R$199,90
     </a>
   </div>
