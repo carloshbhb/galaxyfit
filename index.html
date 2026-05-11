@@ -46,15 +46,16 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<!-- ✅ SITITEMAP LINK (CORRIGIGIDIDO) -->
-<link rel="sitemitemap" type="application/xml" href="https://galaxyfit.vercel.app/sitemap.xml">
+<!-- ✅ SITEMAP LINK (CORRIGIDO) -->
+<link rel="sitemap" type="application/xml" href="https://galaxyfit.vercel.app/sitemap.xml">
 
-<!-- ✅ JSON-LD PRODUCT SCHEMA -->
+<!-- ✅ JSON-LD PRODUCT SCHEMA (CORRIGIDO) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Samsung Galaxy Fit3 Pulseira Esportiva Prata",
+  "sku": "SM-R370NZSAZTO",
   "image": [
     "https://http2.mlstatic.com/D_NQ_NP_2X_925416-MLB76712396933_082024-F.webp",
     "https://http2.mlstatic.com/D_NQ_NP_2X_925416-MLB76712396933_082024-O.webp"
@@ -64,12 +65,11 @@
     "@type": "Brand",
     "name": "Samsung"
   },
-  "sku": "SM-R370NZSAZTO",
   "offers": {
     "@type": "Offer",
     "url": "https://meli.la/2gyyBt9",
     "priceCurrency": "BRL",
-    "price": "199.90",
+    "price": 199.90,
     "priceValidUntil": "2025-12-31",
     "availability": "https://schema.org/InStock",
     "seller": {
@@ -80,7 +80,7 @@
       "@type": "OfferShippingDetails",
       "shippingRate": {
         "@type": "MonetaryAmount",
-        "value": "0",
+        "value": 0,
         "currency": "BRL"
       }
     }
@@ -105,13 +105,13 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://galaxyfit3.vercel.app/"
+      "item": "https://galaxyfit.vercel.app/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://galaxyfit3.vercel.app/blog-vale-pena.html"
+      "item": "https://galaxyfit.vercel.app/blog-vale-pena.html"
     }
   ]
 }
@@ -168,34 +168,89 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "url": "https://galaxyfit3.vercel.app/blog-vale-pena.html",
+      "url": "https://galaxyfit.vercel.app/blog-vale-pena.html",
       "name": "Galaxy Fit3 Vale a Pena em 2025? Review Completo"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "url": "https://galaxyfit3.vercel.app/blog-vs-mi-band.html",
+      "url": "https://galaxyfit.vercel.app/blog-vs-mi-band.html",
       "name": "Galaxy Fit3 vs Mi Band 8: Qual a Melhor?"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "url": "https://galaxyfit3.vercel.app/blog-preco.html",
+      "url": "https://galaxyfit.vercel.app/blog-preco.html",
       "name": "Galaxy Fit3 Preço 2025: Onde Comprar Mais Barato?"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "url": "https://galaxyfit3.vercel.app/blog-vs-apple.html",
+      "url": "https://galaxyfit.vercel.app/blog-vs-apple.html",
       "name": "Galaxy Fit3 vs Apple Watch SE: Vale Pagar 10x Mais?"
     },
     {
       "@type": "ListItem",
       "position": 5,
-      "url": "https://galaxyfit3.vercel.app/blog-10-motivos.html",
+      "url": "https://galaxyfit.vercel.app/blog-10-motivos.html",
       "name": "10 Motivos Para Comprar Galaxy Fit3 Agora"
     }
   ]
+}
+</script>
+
+<!-- ✅ REVIEW SCHEMA (CORRIGIDO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Samsung Galaxy Fit3"
+  },
+  "reviewBody": "Troquei minha Mi Band pela Galaxy Fit3 e não me arrependo. A tela é muito mais bonita, o SpO2 funciona perfeito e a bateria dura quase duas semanas. Melhor compra!",
+  "author": {
+    "@type": "Person",
+    "name": "Ricardo T."
+  },
+  "datePublished": "2025-01-15",
+  "ratingValue": "5"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Samsung Galaxy Fit3"
+  },
+  "reviewBody": "Uso para correr e nadar. A resistência à água é real e o GPS do celular funciona muito bem. Recomendo demais!",
+  "author": {
+    "@type": "Person",
+    "name": "Marina S."
+  },
+  "datePublished": "2025-01-10",
+  "ratingValue": "5"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Samsung Galaxy Fit3"
+  },
+  "reviewBody": "Comprei pro meu pai monitorar o coração. O sensor é preciso e a tela grande facilita a leitura. Ele adorou!",
+  "author": {
+    "@type": "Person",
+    "name": "Paulo H."
+  },
+  "datePublished": "2025-01-05",
+  "ratingValue": "5"
 }
 </script>
 
@@ -231,7 +286,7 @@
     content: '';
     position: fixed;
     inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvgsvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
     pointer-events: none;
     z-index: 999;
     opacity: 0.3;
@@ -999,7 +1054,7 @@
 
   .reveal.visible {
     opacity: 1;
-    transform: none;
+    transform: translateY(0);
   }
 
   @media (max-width: 600px) {
@@ -1010,13 +1065,12 @@
       flex-direction: column;
       gap: 16px;
       padding: 20px 28px;
-      text-align: center;
     }
-    .price-divider { width: 60px; height: 1px; }
-    .cd-num { width: 64px; height: 64px; font-size: 2.2rem; }
-    .compare-section { padding: 60px 16px; }
-    .compare-table th, .compare-table td { padding: 12px 14px; font-size: 0.78rem; }
-    .blog-grid { grid-template-columns: 1fr; }
+    .price-divider {
+      width: 60px;
+      height: 1px;
+    }
+    .cd-num { width: 60px; height: 60px; font-size: 2.2rem; }
   }
 </style>
 </head>
@@ -1030,7 +1084,7 @@
   </a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
-    <li><a href="/blog-vale-pena.html">Review</></li>
+    <li><a href="/blog-vale-pena.html">Review</a></li>
     <li><a href="/blog-vs-mi-band.html">Comparativos</a></li>
     <li><a href="/blog-preco.html">Preço</a></li>
   </ul>
@@ -1053,7 +1107,6 @@
   <div class="orb orb-3"></div>
 
   <div style="position:relative; z-index:10;">
-
     <div class="feature-badges">
       <span class="badge badge-amoled">AMOLED 1.6"</span>
       <span class="badge badge-spo2">SpO2</span>
@@ -1067,7 +1120,7 @@
       <span class="highlight">GALAXY FIT3</span>
     </h1>
     <p class="hero-sub" itemprop="description">
-      Tela AMOLED 1.6" vibrante, monitor cardíaco SpO2, 100+ modos esportivos com GPS e <strong>até 13 dias de bateria</strong>.
+      Tela AMOLED 1.6" vibrante, monitor cardíaco SpO2, 100+ modos esportivos com GPS e até 13 dias de bateria.
       A relação custo-benefício perfeita em 2025.
     </p>
 
@@ -1077,8 +1130,8 @@
       </div>
       <div class="price-divider"></div>
       <div>
-        <div class="price-new" itemprop="price">R$199<span>,90</span></div>
-        <div class="price-period">frete grátis · parcela em 12x</div>
+        <div class="price-new"><span>R$</span>199,90</div>
+        <div class="price-period">frete grátis • parcele em 12x</div>
       </div>
       <div class="price-tag">🔥 43% de Desconto</div>
     </div>
@@ -1125,22 +1178,25 @@
 
   <div class="feature-grid">
     <article class="feature-card amoled-card" itemprop="feature" itemscope itemtype="https://schema.org/Property">
-      <div class="feature-icon amoled-icon" aria-hidden="true">📱</div>
+      <div class="feature-icon amoled-icon">📱</div>
       <h3 class="feature-name" itemprop="name">Tela AMOLED 1.6"</h3>
       <p class="feature-desc" itemprop="description">Cores vibrantes e brilho de até 1000 nits. Leia tudo mesmo sob o sol.</p>
     </article>
+
     <article class="feature-card health-card" itemprop="feature" itemscope itemtype="https://schema.org/Property">
-      <div class="feature-icon health-icon" aria-hidden="true">❤️</div>
+      <div class="feature-icon health-icon">❤️</div>
       <h3 class="feature-name" itemprop="name">Saúde 24h</h3>
       <p class="feature-desc" itemprop="description">Monitor cardíaco contínuo, oxímetro SpO2, análise de sono e detecção de ronco.</p>
     </article>
+
     <article class="feature-card sport-card" itemprop="feature" itemscope itemtype="https://schema.org/Property">
-      <div class="feature-icon sport-icon" aria-hidden="true">🏃</div>
+      <div class="feature-icon sport-icon">🏃</div>
       <h3 class="feature-name" itemprop="name">100+ Modos Esportivos</h3>
       <p class="feature-desc" itemprop="description">Corrida, natação, ciclismo, musculação e mais. GPS conectado ao celular.</p>
     </article>
+
     <article class="feature-card water-card" itemprop="feature" itemscope itemtype="https://schema.org/Property">
-      <div class="feature-icon water-icon" aria-hidden="true">💧</div>
+      <div class="feature-icon water-icon">💧</div>
       <h3 class="feature-name" itemprop="name">Resistência 5ATM</h3>
       <p class="feature-desc" itemprop="description">Mergulhe até 50 metros. Nade, tome banho e encare a chuva sem medo.</p>
     </article>
@@ -1148,22 +1204,25 @@
 
   <div class="benefits-grid">
     <div class="benefit-item">
-      <span class="benefit-icon" aria-hidden="true">🔋</span>
+      <span class="benefit-icon">🔋</span>
       <div class="benefit-title">13 Dias de Bateria</div>
       <div class="benefit-desc">Carregue uma vez e esqueça. Bateria de longa duração para o dia a dia.</div>
     </div>
+
     <div class="benefit-item">
-      <span class="benefit-icon" aria-hidden="true">&</span>
+      <span class="benefit-icon">&</span>
       <div class="benefit-title">Apenas 23g</div>
       <div class="benefit-desc">Tão leve que você esquece que está usando. Conforto total.</div>
     </div>
+
     <div class="benefit-item">
-      <span class="benefit-icon" aria-hidden="true">📱</span>
+      <span class="benefit-icon">📱</span>
       <div class="benefit-title">Samsung Health</div>
       <div class="benefit-desc">App completo com métricas detalhadas e integração com o ecossistema Samsung.</div>
     </div>
+
     <div class="benefit-item">
-      <span class="benefit-icon" aria-hidden="true">💬</span>
+      <span class="benefit-icon">💬</span>
       <div class="benefit-title">Notificações Inteligentes</div>
       <div class="benefit-desc">Receba chamadas, mensagens e alertas direto no seu pulso.</div>
     </div>
@@ -1236,21 +1295,27 @@
   <div class="testimonial" itemprop="review" itemscope itemtype="https://schema.org/Review">
     <div class="stars" aria-label="5 estrelas">★★★★★</div>
     <p itemprop="reviewBody">"Troquei minha Mi Band pela Galaxy Fit3 e não me arrependo. A tela é muito mais bonita, o SpO2 funciona perfeito e a bateria dura quase duas semanas. Melhor compra!"</p>
-    <div class="testimonial-author" itemprop="author">Ricardo T.</div>
+    <div class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <span>Ricardo T.</span>
+    </div>
     <div class="testimonial-role">São Paulo, SP</div>
   </div>
 
   <div class="testimonial" itemprop="review" itemscope itemtype="https://schema.org/Review">
     <div class="stars" aria-label="5 estrelas">★★★★★</div>
-    <p itemprop="reviewBody">"Uso para correr e nadar. A resistência à água é real e o GPS do celular funciona muito bem. Recomendo demais!"</p>
-    <div class="testimonial-author" itemprop="author">Marina S.</div>
+    <p itemprop="reviewBody">"Uso para correr e nadar. A resistência à água é real e o GPS do celular funciona muito bem Recomendo demais!"</p>
+    <div class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <span>Marina S.</span>
+    </div>
     <div class="testimonial-role">Rio de Janeiro, RJ</div>
   </div>
 
   <div class="testimonial" itemprop="review" itemscope itemtype="https://schema.org/Review">
     <div class="stars" aria-label="5 estrelas">★★★★★</div>
     <p itemprop="reviewBody">"Comprei pro meu pai monitorar o coração. O sensor é preciso e a tela grande facilita a leitura. Ele adorou!"</p>
-    <div class="testimonial-author" itemprop="author">Paulo H.</div>
+    <div class="testimonial-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <span>Paulo H.</span>
+    </div>
     <div class="testimonial-role">Belo Horizonte, MG</div>
   </div>
 </section>
@@ -1276,7 +1341,7 @@
     </a>
     <a href="/blog-vs-apple.html" class="blog-card">
       <h3>Galaxy Fit3 vs Apple Watch SE</h3>
-      <p>R$199 vs R$2.499. Será que vale pagar 10x mais pela Apple? A resposta surpreende!</p>
+      <p>R$199 vs R$2.499. Será que vale a pena pagar 10x mais pela Apple? A resposta surpreende!</p>
       <span class="read-more">Ler artigo completo →</span>
     </a>
     <a href="/blog-10-motivos.html" class="blog-card">
@@ -1294,7 +1359,7 @@
   </p>
   <div style="text-align:center;">
     <a href="https://meli.la/2gyyBt9" class="cta-btn" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l6 6M15 11l6-6M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0  1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l6 6M15 11l6-6M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
       Comprar Agora — R$199,90
     </a>
   </div>
