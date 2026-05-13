@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://galaxyfit.vercel.app/sitemap.xml
+Sitemap: https://vetor.blog/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
