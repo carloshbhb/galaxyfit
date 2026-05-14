@@ -100,29 +100,33 @@
     "@type":"Organization",
     "name":"Mercado Livre"
   },
-  "shippingDetails":{
-    "@type":"OfferShippingDetails",
-    "shippingRate":{
-      "@type":"MonetaryAmount",
-      "value":"0",
-      "currency":"BRL"
-    },
-    "deliveryTime":{
-      "@type":"ShippingDeliveryTime",
-      "handlingTime":{
-        "@type":"QuantitativeValue",
-        "minValue":"0",
-        "maxValue":"1",
-        "unitCode":"DAY"
-      },
-      "transitTime":{
-        "@type":"QuantitativeValue",
-        "minValue":"1",
-        "maxValue":"7",
-        "unitCode":"DAY"
-      }
-    }
+"shippingDetails":{
+  "@type":"OfferShippingDetails",
+  "shippingDestination":{
+    "@type":"DefinedRegion",
+    "addressCountry":"BR"
   },
+  "shippingRate":{
+    "@type":"MonetaryAmount",
+    "value":"0",
+    "currency":"BRL"
+  },
+  "deliveryTime":{
+    "@type":"ShippingDeliveryTime",
+    "handlingTime":{
+      "@type":"QuantitativeValue",
+      "minValue":"0",
+      "maxValue":"1",
+      "unitCode":"DAY"
+    },
+    "transitTime":{
+      "@type":"QuantitativeValue",
+      "minValue":"1",
+      "maxValue":"7",
+      "unitCode":"DAY"
+    }
+  }
+},
   "hasMerchantReturnPolicy":{
     "@type":"MerchantReturnPolicy",
     "applicableCountry":"BR",
