@@ -88,16 +88,50 @@
   "image":"https://http2.mlstatic.com/D_NQ_NP_2X_925416-MLB76712396933_082024-F.webp",
   "description":"Samsung Galaxy Fit3 com tela AMOLED 1.6\", SpO2, bateria de 13 dias e resistência 5ATM.",
   "brand":{"@type":"Brand","name":"Samsung"},
-  "offers":{
-    "@type":"Offer",
-    "priceCurrency":"BRL",
-    "price":"199.90",
-    "priceValidUntil":"2026-12-31",
-    "availability":"https://schema.org/InStock",
-    "itemCondition":"https://schema.org/NewCondition",
-    "url":"https://meli.la/2gyyBt9",
-    "seller":{"@type":"Organization","name":"Mercado Livre"}
+"offers":{
+  "@type":"Offer",
+  "priceCurrency":"BRL",
+  "price":"199.90",
+  "priceValidUntil":"2026-12-31",
+  "availability":"https://schema.org/InStock",
+  "itemCondition":"https://schema.org/NewCondition",
+  "url":"https://meli.la/2gyyBt9",
+  "seller":{
+    "@type":"Organization",
+    "name":"Mercado Livre"
   },
+  "shippingDetails":{
+    "@type":"OfferShippingDetails",
+    "shippingRate":{
+      "@type":"MonetaryAmount",
+      "value":"0",
+      "currency":"BRL"
+    },
+    "deliveryTime":{
+      "@type":"ShippingDeliveryTime",
+      "handlingTime":{
+        "@type":"QuantitativeValue",
+        "minValue":"0",
+        "maxValue":"1",
+        "unitCode":"DAY"
+      },
+      "transitTime":{
+        "@type":"QuantitativeValue",
+        "minValue":"1",
+        "maxValue":"7",
+        "unitCode":"DAY"
+      }
+    }
+  },
+  "hasMerchantReturnPolicy":{
+    "@type":"MerchantReturnPolicy",
+    "applicableCountry":"BR",
+    "returnPolicyCategory":"https://schema.org/MerchantReturnFiniteReturnWindow",
+    "merchantReturnDays":"30",
+    "returnMethod":"https://schema.org/ReturnByMail",
+    "returnFees":"https://schema.org/FreeReturn"
+  }
+},
   "aggregateRating":{
     "@type":"AggregateRating",
     "ratingValue":"4.8",
