@@ -332,7 +332,7 @@
     + '<li><a href="/">Home</a></li>'
     + '<li><a href="/samsung-galaxy-fit3-vale-a-pena.html">Review</a></li>'
     + '<li><a href="/samsung-galaxy-fit3-vs-mi-band-8.html">Comparativos</a></li>'
-    + '<li><a href="/blog-preco.html">Preço</a></li>'
+    + '<li><a href="/galaxy-fit3-preço.html">Preço</a></li>'
     + '</ul>'
 
     + '<a href="https://meli.la/2gyyBt9" class="vt-nav-cta" target="_blank" rel="noopener sponsored">'
